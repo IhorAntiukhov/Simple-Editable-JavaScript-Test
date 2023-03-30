@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Testing</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="time-left">
+            <p class="time-left__text">00:00</p>
+        </div>
+
+        <header class="header">
+            <div class="header__content">
+                <h1 class="header__title">Testing</h1>
+                <button type="menu" class="header__edit">
+                    <img src="img/edit-test.svg" alt="" class="button-image">
+                </button>
+            </div>
+        </header>
+
+        <div class="mark">
+            <p class="mark__text"></p>
+        </div>
+
+        <form action="#" name="test" autocomplete="off" class="test">
+            
+        </form>
+    </div>
+
+    <div class="add-question">
+        <div class="add-question__hide-popup-area"></div>
+        <div class="add-question__content">
+            <button class="add-question__hide">
+                <img src="img/close.svg" alt="" class="button-image">
+            </button>
+            <div class="add-question__title">Adding a question</div>
+            <select class="add-question__question-type">
+                <option value="radio">One answer</option>
+                <option value="check">Multiple answers</option>
+                <option value="input">Entering an answer</option>
+            </select>
+            <input type="text" id="addQuestionName" class="add-question__input" placeholder="Question title" autocomplete="off">
+            <div class="add-question__options">
+                <div id="addQuestion0" class="add-question__option">
+                    <div class="add-question__grid">
+                        <input type="text" id="addQuestion0Input" class="add-question__input add-question__input_option" placeholder="Possible answer" autocomplete="off">
+                        <button id="addQuestion0Add" class="add-question__button">
+                            <img src="img/add.svg" alt="" class="button-image">
+                        </button>
+                        <button id="addQuestion0Delete" class="add-question__button">
+                            <img src="img/delete.svg" alt="" class="button-image">
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <input type="text" id="addQuestionAnswer" class="question__input" placeholder="Correct answer" autocomplete="off">
+            <button id="addQuestionButton" class="button">Add a question</button>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
