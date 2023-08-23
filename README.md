@@ -1,4 +1,4 @@
-## Simple Editable JavaScript Test
+## Simple Editable JavaScript Quiz
 
 This project is an example of how you can make *a simple test on JavaScript*. In your test, you can add *questions with one correct answer*, *multiple correct answers*, or questions in which you must *enter the answer in the input* field. In my test you can also set a *time limit*.
 
